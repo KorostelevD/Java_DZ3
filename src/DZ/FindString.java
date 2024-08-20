@@ -37,7 +37,6 @@ public class FindString {
             start = end;
         }
     }
-
     // Метод для знаходження позицій підрядка "String"
     private static void findSubstringPositions(String str, String target, boolean ignoreCase) {
         int length = target.length();
